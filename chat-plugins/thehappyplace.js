@@ -35,7 +35,7 @@ exports.commands = {
 		const author = target.split('|')[1];
 		if (!quote) return;
 		if (!author) {
-			this.errorReply(`You have to specify the author of this quote.`);
+			this.errorReply(`You have to specify the author of  this quote.`);
 			this.parse(`/help qotd`);
 			return;
 		}
